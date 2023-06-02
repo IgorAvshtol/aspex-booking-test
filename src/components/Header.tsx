@@ -58,7 +58,7 @@ export function Header() {
           <Avatar onClick={onLogOutBtnClick} sx={{ cursor: 'pointer' }} />
         </Box>
       ) : (
-        <Box sx={{ width: '15%', display: 'flex', justifyContent: 'space-between' }}>
+        <Box sx={{ width: '250px', display: 'flex', justifyContent: 'space-between' }}>
           <Button variant='outlined' onClick={onLoginBtnClick}>
             Войти
           </Button>
